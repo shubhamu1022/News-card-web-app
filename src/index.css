@@ -1,0 +1,49 @@
+html,body{
+  background-color:rgb(63, 63, 63)
+}
+@font-face {
+	font-family: 'myFont';
+	src: url(./components/KeepCalm-Medium.ttf); 
+	/* src: 
+		local('Lovely Font'),
+		local('Lovely-Font'),
+		url('fonts/lovely_font.otf') 
+		format('opentype'); */
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.news_tile{
+  border-radius: 8px;
+  background-color: rgb(63, 63, 63);
+  margin:20px;
+  
+  padding:10px;
+  border: 2mm thick double black;
+}
+.navbar-color{
+  background-color: rgb(41, 247, 216) !important;
+  display:flex;
+  flex-direction: row;
+  
+}
+.nav_link_typo{
+  
+  color:rgb(63, 63, 63) !important;
+  font-family: 'myFont' !important;
+
+}
+.nav_brand_typo{
+  color:rgb(63, 63, 63)!important;
+  font-family: 'myFont' !important;
+  font-size: 40px !important;
+  padding:5px !important;
+}
+.news_typo{
+  font-family: 'myFont' !important;
+  margin-top: 10px !important;
+}
+.home_grid{
+  background-color: rgb(63, 63, 63) !important;
+}
